@@ -34,13 +34,12 @@
 	1. Google Fonts
 ===============================*/
 
-@import url('https://fonts.googleapis.com/css?family=Roboto:300,400,500,600');
-@import url('https://fonts.googleapis.com/css?family=Montserrat:300,400,500,600');
-@import url('https://fonts.googleapis.com/css2?family=Ubuntu+Mono&display=swap');
-
-
-
-@import url('https://fonts.googleapis.com/css?family=Source+Code+Pro');
+@font-face {
+    font-family: 'Ubuntu';
+    src: url('/fonts/Ubuntu/Ubuntu-Regular.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+}
 
 
 html,body {
@@ -93,8 +92,8 @@ p {
     letter-spacing: 0;
     line-height:1.8;
     color: #ff0000;
-    font-family: F16;
-    src: url("../fonts/Ubuntu/Ubuntu-Regular.ttf") format('truetype');
+    font-family: 'Ubuntu';
+    
     
 }
 
