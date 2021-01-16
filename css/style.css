@@ -93,7 +93,8 @@ p {
     letter-spacing: 0;
     line-height:1.8;
     color: #ff0000;
-    font-family: 'Ubuntu Mono', monospace;
+    font-family: F16;
+    src: url("../fonts/Ubuntu/Ubuntu-Regular.ttf") format('truetype');
     
 }
 
