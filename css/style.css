@@ -36,6 +36,7 @@
 
 @import url('https://fonts.googleapis.com/css?family=Roboto:300,400,500,600');
 @import url('https://fonts.googleapis.com/css?family=Montserrat:300,400,500,600');
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu+Mono&display=swap');
 
 
 
@@ -51,10 +52,11 @@ html,body {
   h1,h2 {
     font-weight: 200;
     margin: 0.4em 0;
+    color: rgb(247, 0, 0);
   }
   h1 { font-size: 3.5em; }
   h2 {
-    color: #888;
+    color: rgb(247, 0, 0);
     font-size: 2em;
   }
 
@@ -82,7 +84,7 @@ h3,
 h4,
 h5,
 h6{
-    color: #1b1b1b;
+    color: #ff0000;
     font-weight: 600;
     font-family: 'Montserrat', sans-serif;
 }
@@ -90,7 +92,20 @@ h6{
 p {
     letter-spacing: 0;
     line-height:1.8;
+    color: #ff0000;
+    font-family: 'Ubuntu Mono', monospace;
+    
 }
+
+
+span {
+    letter-spacing: 0;
+    line-height:1.8;
+    color: #ddcaca;
+    font-family: 'Ubuntu Mono', monospace;
+    
+}
+
 
 a{
     text-decoration: none;
