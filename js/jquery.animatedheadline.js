@@ -188,7 +188,7 @@
         this.el.innerHTML = '<span class="wrap">'+this.txt+'</span>';
       
         var that = this;
-        var delta = 150 - Math.random() * 100;
+        var delta = 130 - Math.random() * 100;
       
         if (this.isDeleting) { delta /= 2; }
       
