@@ -8,6 +8,11 @@ p {
     font-weight: bold;
 }
 
+img {
+    width:  100px;
+    height: 100px;
+}
+
 body {background-color: rgb(31, 31, 37);}
 
 .center {
