@@ -9,14 +9,10 @@ p {
 }
 
 img {
-    max-width:5%;
-    max-height:5%;
+    position: absolute;
+    right: 0px;
+    bottom: 0px;
 }
 
-body {background-color: rgb(31, 31, 37);}
 
-.center {
-    display: block;
-    max-width:5%;
-    max-height:5%;
-  }
+
